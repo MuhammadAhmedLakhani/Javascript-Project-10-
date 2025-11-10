@@ -18,7 +18,7 @@
 }
 
 .heading > h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 4px solid #fd1f1a;
 }
@@ -32,6 +32,7 @@
 }
 .shelter {
     width: 15vw;
+    height: 10vh;
     border: 10px solid #fd1f1a;
     background-color: #FFF;
     border-radius: 20%;
@@ -41,6 +42,10 @@
     margin:0 20px;
 
 }
+.shelter > h3 {
+    font-size: 40px;
+}
+
 
 .tabs {
     display: flex;
@@ -62,26 +67,41 @@
     align-items: center;
 }
 .head > h3 {
-    font-size: 25px;
+    font-size: 55px;
 }
 
 
 .sign > button {
     background-color: #008ae5;
-    font-size: 15px;
+    font-size: 35px;
     font-family:monospace;
-    padding: 10px;
+    padding: 20px;
     border-radius: 15px;
-    margin-top: 15px;
+    margin-top: 35px;
+}
+
+.sign label > input{
+    font-size: 40px;
+}
+.sign label {
+    font-size: 50px;
 }
 
 
 
 .log > button {
     background-color: #00b158;
-    font-size: 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 10px;
+    font-size: 35px;
+    font-family: monospace;
+    padding: 20px;
     border-radius: 15px;
-    margin-top: 15px;
+    margin-top: 35px;
 }
+
+.log label > input{
+    font-size: 40px;
+}
+.log label {
+    font-size: 50px;
+}
+
