@@ -9,11 +9,37 @@
 </head>
 
 <body>
-    <div class="cont">
+
+    <div class="entry" id="entry">
+        <div class="heading">
+            <img src="images/icon.png" alt="" width="100px" height="100px">
+            <h1>Gmail</h1>
+        </div>
+        <div class="tabs">
+            <div class="login ">
+                <div class="shelter" onclick="enter()">
+                    <img src="images/signup.jpg" alt="" width="30px" height="25px">
+                    <h3>SignUp</h3>
+                </div>
+            </div>
+            <div class="login ">
+                <div class="shelter SLOG" onclick="enterLogin()">
+                    <img src="images/login.png" alt="" width="30px" height="25px">
+                    <h3>Login</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-        <div>
-            <h3>Sign Up</h3>
+    <div class="hide" id="hide">
+
+
+        <div id="sign" class="sign">
+            <div class="head">
+                <img src="images/signup.jpg" alt="" width="60px" height="30px">
+                <h3>Sign Up</h3>
+            </div>
             <label for="">
                 Name
                 <br>
@@ -37,8 +63,11 @@
 
         <br>
 
-        <div>
-            <h3>Login</h3>
+        <div class="log" id="log">
+            <div class="head">
+                <img src="images/login.png" alt="" width="60px" height="30px">
+                <h3>Login</h3>
+            </div>
             <label for="">
                 Email
                 <br>
@@ -51,7 +80,7 @@
                 <input type="password" id="l-password">
             </label>
             <br>
-            <button>Login</button>
+            <button onclick="login()">Login</button>
         </div>
     </div>
 

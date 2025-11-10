@@ -1,4 +1,87 @@
 .cont {
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }   
+
+.hide {
+    display: none;
+}
+
+.heading {
+    
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.heading > h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 4px solid #fd1f1a;
+}
+
+.login {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* border: 2px solid #fd1f1a; */
+}
+.shelter {
+    width: 15vw;
+    border: 10px solid #fd1f1a;
+    background-color: #FFF;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin:0 20px;
+
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+
+}
+
+.SLOG{
+    border: 10px solid #00b158;
+}
+
+.entry {
+    height: 100VH;
+    background-color: aliceblue;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+.head > h3 {
+    font-size: 25px;
+}
+
+
+.sign > button {
+    background-color: #008ae5;
+    font-size: 15px;
+    font-family:monospace;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+
+
+.log > button {
+    background-color: #00b158;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
